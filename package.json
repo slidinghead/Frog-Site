@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "node": "^20.13.1",
+    "pug": "^3.0.2"
+  },
+  "name": "frog-site",
+  "version": "1.0.0",
+  "description": "Website for and about frogs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
