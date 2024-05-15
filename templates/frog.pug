@@ -2,5 +2,10 @@ doctype html
 head
   meta(charset='UTF-8')
   meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='http://localhost:4131/css/main.css')
   title Document
-| Starting frog page
+div(id ='back')
+  .frogs
+    - for(var x = 0; x < 9; x++)
+      .frog
+        p Test

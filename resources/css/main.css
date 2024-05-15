@@ -1,1 +1,29 @@
+body {
+    background-color: rgb(198, 226, 230);
+    text-align: center;
+    margin: 0%;
+}
 
+#back {
+    background-color: greenyellow;
+    height: 90%;
+    width: 90%;
+    vertical-align: middle;
+    margin: auto;
+    display: inline-block;
+}
+
+.frogs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.frog {
+    background-color: yellow;
+    height: 15em;
+    width: 15em;
+    margin: 2em;
+}

@@ -7,6 +7,8 @@ const path = require('path')
 app.set("views", "templates"); // look in "templates" folder for pug templates
 app.set("view engine", "pug");
 
+app.use(express.static(path.join(__dirname, 'resources')));
+
 app.get('/', (req, res) => {
     res.render('frog')
 })
