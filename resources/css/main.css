@@ -1,16 +1,17 @@
 body {
-    background-color: rgb(198, 226, 230);
+    background-color: rgb(17,130,59);
     text-align: center;
     margin: 0%;
 }
 
 #back {
-    background-color: greenyellow;
+    background-color: rgb(72,191,83);
     height: 90%;
     width: 90%;
     vertical-align: middle;
     margin: auto;
     display: inline-block;
+    border-radius: 2em;
 }
 
 .frogs {
@@ -22,8 +23,9 @@ body {
 }
 
 .frog {
-    background-color: yellow;
+    background-color: rgb(145,240,134);
     height: 15em;
     width: 15em;
     margin: 2em;
+    border-radius: 2em;
 }
